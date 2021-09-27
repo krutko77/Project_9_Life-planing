@@ -1,0 +1,74 @@
+@import "./abstracts/vars";
+@import "./abstracts/mixins";
+
+@font-face {
+   font-family: "OpenSans-700";
+   src: url("./../fonts/OpenSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+   font-family: "OpenSans-600";
+   src: url("./../fonts/OpenSans-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+   font-family: "Quicksand-700";
+   src: url("./../fonts/Quicksand-Bold.ttf") format("truetype");
+}
+
+@font-face {
+   font-family: "Quicksand-500";
+   src: url("./../fonts/Quicksand-Medium.ttf") format("truetype");
+}
+
+@font-face {
+   font-family: "Quicksand-400";
+   src: url("./../fonts/Quicksand-Regular.ttf") format("truetype");
+}
+
+
+@font-face {
+   font-family: "Roboto-500";
+   src: url("./../fonts/Roboto-Medium.ttf") format("truetype");
+}
+
+@font-face {
+   font-family: "Roboto-400";
+   src: url("./../fonts/Roboto-Regular.ttf") format("truetype");
+}
+
+*,
+*::after,
+*::before {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html,
+body {
+   font-family: 'OpenSans', sans-serif;
+   font-family: 'Quicksand', sans-serif;
+   font-family: 'Roboto', sans-serif;
+   min-width: 320px;
+}
+
+a {
+   text-decoration: none;
+   color: inherit;
+}
+
+ul {
+   list-style-type: none;
+}
+
+label:hover,
+a:hover {
+   color: turquoise;
+}
+
+button:active {
+   transform: translate(1px, 2px);
+}
+
+@import '.header';
