@@ -1,2 +1,13 @@
+.header {
+  height: 80px;
+  display: flex;
+  align-items: center; }
+  .header__nav {
+    max-width: 500px; }
+  .header__social-list {
+    display: flex;
+    justify-content: space-between;
+    max-width: 220px;
+    list-style: none; }
 
 /*# sourceMappingURL=style.min.css.map */

@@ -1,4 +1,17 @@
-.heder {
+.header {
    height: 80px;
-  
+   display: flex;
+   align-items: center;
+
+   &__nav {
+      max-width: 500px;
+   }
+
+   &__social-list {
+      display: flex;
+      justify-content: space-between;
+      max-width: 220px;
+      list-style: none;
+   }
+
 }
