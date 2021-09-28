@@ -1,3 +1,22 @@
-.heder {
+.header {
     height: 80px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.header__nav {
+    max-width: 500px;
+}
+
+.header__social-list {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+    max-width: 220px;
+    list-style: none;
 }

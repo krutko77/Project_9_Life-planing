@@ -16,28 +16,33 @@
       <div class="container">
          <div class="row">
             <div class="col-1">
-               <img src="./assets/images/logo.png" alt="logo">
+               <img class="header__logo" src="./assets/images/logo.png" alt="logo">
             </div>
             <div class="col-7">
-               <nav class="header__nav">
-                  <ul class="nav">
-                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Home</a>
-                     </li>
-                     <li class="nav-item">
+               <nav class="header__nav navbar navbar-expand-lg">
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item">
                         <a class="nav-link" href="#">Blog</a>
-                     </li>
-                     <li class="nav-item">
+                      </li>
+                      <li class="nav-item">
                         <a class="nav-link" href="#">Features</a>
-                     </li>
-                     <li class="nav-item">
+                      </li>
+                      <li class="nav-item">
                         <a class="nav-link" href="#">Pricing</a>
-                     </li>
-                     <li class="nav-item">
+                      </li>
+                      <li class="nav-item">
                         <a class="nav-link" href="#">Documentation</a>
-                     </li>
-                  </ul>
-               </nav>
+                      </li>
+                    </ul>
+                  </div>
+                </nav>               
             </div>
             <div class="col-3">
                <ul class="header__social-list social">
